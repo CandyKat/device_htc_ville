@@ -36,6 +36,9 @@ TARGET_BOOTLOADER_BOARD_NAME := ville
 # Kernel
 TARGET_KERNEL_CONFIG := ville_defconfig
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard0
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/ville/bluetooth
 
