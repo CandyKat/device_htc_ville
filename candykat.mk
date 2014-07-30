@@ -1,9 +1,13 @@
 # Release name
 PRODUCT_RELEASE_NAME := ville
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 960
+TARGET_SCREEN_WIDTH := 540
+
 # ville gets a special boot animation because it's special.
-  PRODUCT_BOOTANIMATION := device/htc/ville/bootanimation.zip
-  TARGET_CONTINUOUS_SPLASH_ENABLED := true
+PRODUCT_BOOTANIMATION := device/htc/ville/bootanimation.zip
+TARGET_CONTINUOUS_SPLASH_ENABLED := true
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/candykat/config/common_full_phone.mk)
