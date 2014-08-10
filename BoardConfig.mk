@@ -42,6 +42,9 @@ TARGET_EXTERNAL_APPS = sdcard0
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/ville/bluetooth
 
+# Camera
+BOARD_CAMERA_FRONT_VGA := true
+
 # Use libril in the device tree
 BOARD_PROVIDES_LIBRIL := true
 BOARD_RIL_FIVE_SEARCH_RESPONSES := true
