@@ -26,7 +26,6 @@
 
 # inherit from S4 common
 -include device/htc/s4-common/BoardConfigCommon.mk
-
 # Require bootloader version
 TARGET_BOARD_INFO_FILE ?= device/htc/ville/board-info.txt
 
@@ -34,7 +33,7 @@ TARGET_BOARD_INFO_FILE ?= device/htc/ville/board-info.txt
 TARGET_BOOTLOADER_BOARD_NAME := ville
 
 # Kernel
-TARGET_KERNEL_CONFIG := cm_ville_defconfig
+TARGET_KERNEL_CONFIG := ville_defconfig
 
 # External apps on SD
 TARGET_EXTERNAL_APPS = sdcard0
