@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := ville
+PRODUCT_RELEASE_NAME := ville215
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 960
